@@ -70,7 +70,7 @@ app.get('/morelikethis/:id', (req, res) => {
 
 //Review requests
 app.get('/review-service', (req, res) => {
-  axios.get(reviewURL+'/bundle.js').then((response) => {
+  axios.get(reviewURL + '/bundle.js').then((response) => {
     res.status(200).send(response.data)
   }).catch((err) => {
     res.status(404).send(err);
