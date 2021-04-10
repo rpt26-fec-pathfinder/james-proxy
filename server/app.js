@@ -8,10 +8,10 @@ const path = require('path');
 const cors = require('cors');
 
 //service locations
-const imageGalleryURL = 'http://localhost:4012'
-const metadataURL = 'http://localhost:4032'
-const moreLikeURL = 'http://localhost:4022'
-const reviewURL = 'http://localhost:4052'
+const imageGalleryURL = process.env.IMAGEGAL_SERVICE
+const metadataURL = process.env.METADATA_SERVICE
+const moreLikeURL = process.env.MORELIKE_SERVICE
+const reviewURL = process.env.REVIEWS__SERVICE
 
 //middleware
 const bodyParser = require('body-parser');
