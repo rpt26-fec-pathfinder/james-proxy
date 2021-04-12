@@ -8,7 +8,7 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "start": "nodemon ./server/index.js production",
+    "start": "node ./server/index.js production",
     "start-dev": "nodemon ./server/index.js development",
     "compile": "webpack --mode development"
   },

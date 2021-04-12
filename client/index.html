@@ -15,5 +15,17 @@
     <script src='/metadata-service'></script>
     <script src='/more-like-service'></script>
     <script src='/review-service'></script>
+
+    <script>
+      // ReactDOM.render
+      try {
+        ReactDOM.render(
+          React.createElement(ReviewApp),
+          document.getElementById('reviewApp')
+          );
+        } catch (err) {
+          console.log(err)
+        }
+    </script>
   </body>
 </html>
