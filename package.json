@@ -11,7 +11,7 @@
     "start": "node ./server/index.js",
     "start-prod": "node ./server/index.js production",
     "start-dev": "nodemon ./server/index.js development",
-    "compile": "webpack --mode development"
+    "compile": "webpack --mode production"
   },
   "dependencies": {
     "axios": "^0.21.1",
