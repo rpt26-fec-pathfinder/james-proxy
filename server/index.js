@@ -11,8 +11,6 @@ switch(args[0]) {
   case 'testing':
     require('dotenv').config({path: Path.resolve(__dirname, '../.test.env')})
     break;
-  default:
-    process.exit(1);
 }
 
 const server = require('./app.js');

@@ -1,0 +1,7 @@
+*.env
+*.yml
+Dockerfile.*
+/public
+/node_modules
+.dockerignore
+.gitignore
